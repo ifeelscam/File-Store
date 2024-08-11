@@ -22,8 +22,8 @@
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
-* `STAR_PIC` Optional: To change this you will need the Telegraph image URL. To create URL you can use this bot  <a href='t.me/vTelegraphBot'>@vTelegraphBot</a>
-* `FORCE_PIC` Optional: 
+* `STAR_PIC` Optional: Start message Pic. To create URL you can use this bot  <a href='t.me/vTelegraphBot'>@vTelegraphBot</a>
+* `FORCE_PIC` Optional: ForceSub message Pic. To create URL you can use this bot  <a href='t.me/vTelegraphBot'>@vTelegraphBot</a>
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 
 ```
