@@ -30,7 +30,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                  [InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "https://t.me/UnseenRobot/shorts")],
                     [
                         InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "start"),
-                        InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
+                        InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data = "close")
                     ]
                 ]
             )
