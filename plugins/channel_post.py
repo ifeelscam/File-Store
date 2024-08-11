@@ -28,7 +28,7 @@ async def channel_post(client: Client, message: Message):
 
     reply_markup = InlineKeyboardMarkup([
         [InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}'),
-        InlineKeyboardButton(" View Post 👀", url=f'{link}']])
+        InlineKeyboardButton(" View Post 👀", url=f'{link}')]])
 
     await reply_text.edit(f"<b><pre>Here is your link\n\n{link}</pre>\n<u>Tap To Copy Code to copy Link</u>\n\n⚡ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/HateXfree>ᯓ ʜᴀᴛᴇ ғʀᴇᴇ ᡣ𐭩</a></b>", reply_markup=reply_markup, disable_web_page_preview = True)
 
