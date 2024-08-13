@@ -9,7 +9,14 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data 
     if data == "about":
         await query.message.edit_text(
-            text=ABOUT_TXT.format(first=query.from_user.first_name),
+            text="""<b><blockquote>╭───────────⍟
+├➤ ᴄʀᴇᴀᴛᴏʀ  : <a href='t.me/{OWNER_USER}'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
+├➤ ʟɪʙʀᴀʀy : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
+├➤ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
+├➤ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/outlawbots>ᴏᴜᴛʟᴀᴡ ʙᴏᴛs</a>
+├➤ ᴘᴀɪᴅ ʙᴏᴛ : <a href=https://t.me/ifeelscam>ᯓ ɪɴᴠᴀʟɪᴅ ᡣ𐭩</a>
+├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/HateXfree>ᯓ ʜᴀᴛᴇ ғʀᴇᴇ ᡣ𐭩</a>
+╰───────────────⍟</blockquote></b>""",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data ="source"),
